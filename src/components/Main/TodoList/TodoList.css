@@ -1,0 +1,36 @@
+/* Estilo general */
+.todo-list {
+    color: grey;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título del todo list */
+  .todo-list h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .todo-list label {
+    color: grey;
+  }
+
+  .error {
+    color: #b71c1c; 
+    background-color: #ffcdd2; 
+    border: 1px solid #f44336; 
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    margin: 10px 0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
